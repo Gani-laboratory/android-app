@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Dicoding Android App</string>
+    <string name="name">Ahmad Gani</string>
+    <string name="article_title">Tch, Nandayo koitsu</string>
+    <string name="article_content">Lorem ipsum dolor sit amet</string>
+    <string name="desc">
+        Seorang weeb yang antusias dengan dunia teknologi digital, hoby mengoleksi dan mengolah informasi, bercita-cita jadi database center of science\'s knowledge, dan berharap dapat memproses seluruh informasinya. Looking for a missing piece, seeking the truth.
+    </string>
+    <string name="email">ahmadxgani01@gmail.com</string>
+    <string-array name="data_title">
+        <item>Tutorial masuk surga</item>
+        <item>Tutor mgondof</item>
+        <item>Apa itu kesadaran?</item>
+        <item>Dimana aku?</item>
+        <item>Cara berfikir yang baik dan benar</item>
+        <item>The Ignorance</item>
+        <item>The origin of "things"</item>
+        <item>Apa itu kebenaran?</item>
+        <item>Kenapa pemula sering dibully saat bertanya?</item>
+        <item>Yin dan Yang</item>
+    </string-array>
+    <string-array name="data_content">
+        <item>
+Surga adalah impian bagi kebanyakan orang, tetapi pernahkah anda berfikir bagaimana cara memasukinya? caranya mudah, jadilah bermanfaat. Pikirkanlah masa kini, bukan masa lalu maupun masa depan, dan apa yang bisa kamu lakukan, lakukanlah sekarang, jangan menundanya.
+        </item>
+        <item>
+            Oh, mgondof itu sungguh mudah. Siapa saja bisa melakukannya dengan mata tertutup, tanpa perlu membaca manual sama sekali. yang anda perlukan hanyalah kesadaran dan keinginan saja, sekian.
+        </item>
+        <item>
+            apakah pemahaman dan kesadaran merupakan hal yang berbeda? apa perbedaannya? Apa sih kesadaran itu? bagaimana menjelaskannya? seperti apa bentuknya? baiklah, saya rasa kesadaran tidak bisa dijelaskan secara tekstual, sekian.
+        </item>
+        <item>
+            seseorang yang merasa terisolasi dari dunia luar dan kesulitan memahami dunia sekitarnya. Namun, orang tersebut menyadari bahwa meskipun segalanya selalu berubah, tetapi seseorang dapat memilih bagaimana cara menghadapinya.
+            bahwa hatinya yang cemas dan kebingungan terus berputar-putar, dan meskipun hatinya yang terpisah sulit dimengerti, tidak ada yang melihatnya. Meskipun begitu, ia terus mengikuti aliran waktu seperti angin, tanpa tujuan yang jelas.
+            ia terus menerus bermimpi, tetapi mimpi-mimpinya terasa dangkal dan tidak memberikan arti yang jelas. Meskipun dia merasa sedih, dia tidak tahu apa yang bisa dilakukannya selain terus memandang ke kosong dan membiarkan kekhawatiran hatinya terus menguasainya.
+            meskipun seseorang tidak tahu apa yang terjadi di masa depan dan bagaimana dunia akan berubah, seseorang tetap ada dan hidup. Bahkan jika orang itu terus berubah, itu tidak akan mengubah esensinya. Ia menyadari bahwa dia harus menerima perubahan dan memilih jalannya sendiri. Ia yakin bahwa seseorang harus memutuskan sendiri bagaimana cara menghadapi perubahan dan ketidakpastian dalam hidup. Meskipun keadaan bisa menjadi gelap dan sulit, jika seseorang bersedia untuk mengubahnya, maka perubahan menuju arah yang lebih baik bisa terjadi.
+        </item>
+        <item>
+            Kuasalilah metodologi belajar seperti deduktif dan induktif, dan selalu tanyakan apa yang sedang kamu lakukan pada dirimu sendiri XD
+        </item>
+        <item>
+            They are neither unwilling nor uncaring, they simply don\'t know. Just tell them the right order, did you really think you're understand it?
+        </item>
+        <item>
+            Telur atau ayam dulu yang pertamakali muncul? urutan yang manakah yang benar? segala sesuatu di dunia ini memiliki tatanan, sebuah urutan, hierarki, dan apun itu, sekian.
+        </item>
+        <item>
+            Apa itu kebenaran? apakah sebuah keyakinan adalah kebenaran?
+            Quoted from the truth in fullmetal alcehmist character: "Who am I? One name you might have for me is The World, or you might call me The Universe, or perhaps God, or perhaps the Truth. I am all and I am one, so of course this also means that I am you."
+            In the end, Realizing the truth is the most tricky and challanging process.
+        </item>
+        <item>
+            Seperti yang dikatakan guru gembul dalam Eps 650, Anak yang membuli lebih butuh diperhatikan dari pada anak yang dibuli. maka dari itu, ketika orang bertanya lalu ada yang membulinya, mengapa si pembuli tidak memberikan masukan agar si penanya memperbaiki pertanyaannya menjadi lebih baik dan dimengerti, mengepa tidak demikian? sekian.
+        </item>
+        <item>
+            Saya sangat suka dengan konsep keseimbangan yang dibawakan oleh taoism, saya pertama kali mendengarnya di scene anime hell paradise :3
+        </item>
+    </string-array>
+    <integer-array name="data_cover">
+        <item>@drawable/utopia</item>
+        <item>@drawable/nerd</item>
+        <item>@drawable/kesadaran</item>
+        <item>@drawable/badapple</item>
+        <item>@drawable/socrates</item>
+        <item>@drawable/ignorance</item>
+        <item>@drawable/theorder</item>
+        <item>@drawable/truth</item>
+        <item>@drawable/gesugao</item>
+        <item>@drawable/yinyang</item>
+    </integer-array>
+</resources>
