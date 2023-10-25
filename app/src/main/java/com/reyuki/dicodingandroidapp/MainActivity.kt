@@ -59,8 +59,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvArticles.layoutManager = LinearLayoutManager(this)
-        val listArticleAdapter = ListArticleAdapter(list)
+        val listArticleAdapter = ListArticleAdapter(list) {
+            onItemClicked(it)
+        }
         rvArticles.adapter = listArticleAdapter
+    }
 
+    private fun onItemClicked(article: Article) {
+        val intentDetail = Intent(this@MainActivity, DetailActivity::class.java)
+        intentDetail.putExtra("data", article)
+        startActivity(intentDetail)
     }
 }

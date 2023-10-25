@@ -5,8 +5,14 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.reyuki.dicodingandroidapp.databinding.ActivityArticleItemBinding
 
-class ListArticleAdapter(private val list: ArrayList<Article>) : RecyclerView.Adapter<ListArticleAdapter.ListViewHolder>() {
-    class ListViewHolder(var binding: ActivityArticleItemBinding) : RecyclerView.ViewHolder(binding.root)
+class ListArticleAdapter(private val list: ArrayList<Article>, private val onClick: (Article) -> Unit) : RecyclerView.Adapter<ListArticleAdapter.ListViewHolder>() {
+    inner class ListViewHolder(var binding: ActivityArticleItemBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(article: Article) {
+            itemView.setOnClickListener {
+                onClick(article)
+            }
+        }
+    }
 
     override fun getItemCount(): Int = list.size
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -20,5 +26,6 @@ class ListArticleAdapter(private val list: ArrayList<Article>) : RecyclerView.Ad
         holder.binding.tvItemTitle.text = title
         holder.binding.tvItemContent.text = content
 
+        holder.bind(list[position])
     }
 }
