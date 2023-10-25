@@ -1,9 +1,9 @@
 package com.reyuki.dicodingandroidapp
 
+import android.content.Intent
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import com.reyuki.dicodingandroidapp.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
@@ -20,7 +20,16 @@ class DetailActivity : AppCompatActivity() {
         }
 
         binding.tvItemTitle.text = data!!.title
-        binding.tvItemContent.text = data!!.content
-        binding.imgItemPhoto.setImageResource(data!!.coverPhoto)
+        binding.tvItemContent.text = data.content
+        binding.imgItemPhoto.setImageResource(data.coverPhoto)
+        binding.btnShare.setOnClickListener {
+            val sendIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, data.title + "\n" + data.content)
+                type = "text/plain"
+            }
+            val shareIntent = Intent.createChooser(sendIntent, null)
+            startActivity(shareIntent)
+        }
     }
 }
